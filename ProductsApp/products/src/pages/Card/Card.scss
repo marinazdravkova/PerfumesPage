@@ -1,0 +1,102 @@
+.card-page {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+
+    .empty-card-message {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #666;
+    text-align: center;
+  }
+  
+    .card-table {
+      width: 50%;
+      border-collapse: collapse;
+
+      
+    tfoot {
+        tr {
+          td {
+            padding: 8px;
+            border-bottom: none; 
+          }
+        }
+      }
+  
+      .checkout-button {
+        width: 100%; 
+        max-width: 250px; 
+        padding: 10px 20px; 
+        font-size: 15px; 
+        border: none;
+        border-radius: 5px;
+        background-color: #c00050;
+        color: white;
+        cursor: pointer;
+        margin-top: 10px; 
+        &:hover {
+          background-color: darken(#c00050, 10%);
+        }
+      }
+    
+      th, td {
+        text-align: left;
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+      }
+  
+      th, td {
+        &:first-child {
+          width: 50px; 
+        }
+      }
+    
+      .card-item-image {
+        width: 50px;
+        height: 50px;
+        object-fit: cover; 
+      }
+    
+      .remove-item-button {
+        border: none;
+        cursor: pointer;
+        color: #c00050; 
+        background: none;
+      }
+    }
+  
+    .card-summary {
+      
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      background-color: #fff;
+  
+      .total {
+        display: flex;
+        justify-content: space-between;
+      }
+  
+      button {
+        
+        background-color: #c00050; 
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          background-color: darken(#c00050, 10%);
+        }
+      }
+    }
+  }
+  

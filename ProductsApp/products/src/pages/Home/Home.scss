@@ -1,0 +1,22 @@
+@import './../../assets/style/theming';
+
+#home {
+    .container {
+        position: relative;
+        text-align: center;
+    }
+
+    .content {
+        position: absolute;
+        bottom: 100px;
+        left: 0;
+        right: 0;    
+        color: $color-primary;
+        
+    }
+
+    #perfume {
+        width: 100%;
+        opacity: 50%;
+    }
+}

@@ -1,0 +1,110 @@
+@import './../../assets/style/theming.scss';
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+ 
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.alert {
+  padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.signin-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+    background-color: white; 
+
+    .perfume-image-container {
+        
+        flex: 0 0 50%; 
+        max-width: 50%; 
+        img.perfume-image {
+          width: 100%; 
+          max-width: 600px; 
+          height: auto; 
+          display: block; 
+          margin-right: 30px; 
+        }
+      }
+  
+    .signin-container {
+      flex: 1;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 400px;
+  
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+  
+      .form-group {
+        margin-bottom: 20px;
+  
+        label {
+          display: block;
+          color: #333;
+          margin-bottom: 10px;
+        }
+  
+        input {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          margin-bottom: 10px;
+  
+          &:focus {
+            outline: none;
+            border-color: $color-primary;
+          }
+        }
+  
+      }
+  
+      .signin-button {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 4px;
+        background-color: $color-primary; 
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: darken($color-secondary, 10%);
+        }
+      }
+  
+    }
+  }

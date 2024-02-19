@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Product.DataLayer",
+    "\\Product.DataLayer\\EntityMaps",
+    "\\Product.DataLayer\\Migrations",
+    "\\Products.Entities"
+  ],
+  "SelectedNode": "\\Product.DataLayer\\ProductDbContext.cs",
+  "PreviewInSolutionExplorer": false
+}

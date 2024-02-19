@@ -1,0 +1,31 @@
+@import './../../assets/style/theming.scss';
+.header {
+    background-color: $color-primary;
+    padding: 20px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+
+    
+    a {
+        color: white;
+        margin: 0 20px;
+
+    }
+
+    .active {
+        color: $color-secondary;
+    }
+
+    #logo {
+        width: 60px;
+    }
+
+    .links {
+        margin: 0 50px;
+    }
+
+    .navigate {
+        margin-top: 25px;
+    }
+  }

@@ -1,0 +1,15 @@
+G:\Products\ProductsApi\Products.Application\bin\Debug\net6.0\Products.Application.deps.json
+G:\Products\ProductsApi\Products.Application\bin\Debug\net6.0\Products.Application.dll
+G:\Products\ProductsApi\Products.Application\bin\Debug\net6.0\Products.Application.pdb
+G:\Products\ProductsApi\Products.Application\bin\Debug\net6.0\Products.Entities.dll
+G:\Products\ProductsApi\Products.Application\bin\Debug\net6.0\Products.Entities.pdb
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\Products.Application.csproj.AssemblyReference.cache
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\Products.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\Products.Application.AssemblyInfoInputs.cache
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\Products.Application.AssemblyInfo.cs
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\Products.Application.csproj.CoreCompileInputs.cache
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\Products.Application.csproj.CopyComplete
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\Products.Application.dll
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\refint\Products.Application.dll
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\Products.Application.pdb
+G:\Products\ProductsApi\Products.Application\obj\Debug\net6.0\ref\Products.Application.dll

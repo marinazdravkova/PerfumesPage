@@ -1,0 +1,94 @@
+@import './../../assets/style/theming.scss';
+.alert {
+  padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+    background-color: white; 
+    
+    .perfume-image-container {
+        // Adjust these styles as needed
+        flex: 0 0 50%; // This gives it a fixed proportion of the available space
+        max-width: 50%; // This makes sure the image container does not grow beyond 50% width
+        img.perfume-image {
+          width: 100%; // This makes the image responsive within the container
+          max-width: 600px; // Adjust as needed for your design
+          height: auto; // Keep aspect ratio of the image
+          display: block; // Ensures the image does not inline with other elements
+          margin-right: 30px; // Spacing between the image and the form
+        }
+      }
+  
+    .register-container {
+      flex: 1;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 400px;
+  
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+  
+      .form-group {
+        margin-bottom: 20px;
+  
+  
+        input {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          margin-bottom: 10px;
+  
+          &:focus {
+            outline: none;
+            border-color: $color-primary;
+          }
+        }
+  
+      }
+  
+      .register-button {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 4px;
+        background-color: $color-primary; // Use the button color from your design
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: darken($color-secondary, 10%);
+        }
+      }
+      
+    }
+    
+  }

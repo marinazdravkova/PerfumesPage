@@ -1,0 +1,17 @@
+G:\Products1\Product.DataLayer\bin\Debug\net6.0\Product.DataLayer.deps.json
+G:\Products1\Product.DataLayer\bin\Debug\net6.0\Product.DataLayer.runtimeconfig.json
+G:\Products1\Product.DataLayer\bin\Debug\net6.0\Product.DataLayer.dll
+G:\Products1\Product.DataLayer\bin\Debug\net6.0\Product.DataLayer.pdb
+G:\Products1\Product.DataLayer\bin\Debug\net6.0\Products.Entities.dll
+G:\Products1\Product.DataLayer\bin\Debug\net6.0\Products.Entities.pdb
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\Product.DataLayer.csproj.AssemblyReference.cache
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\Product.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\Product.DataLayer.AssemblyInfoInputs.cache
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\Product.DataLayer.AssemblyInfo.cs
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\Product.DataLayer.csproj.CoreCompileInputs.cache
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\Product.DataLayer.csproj.CopyComplete
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\Product.DataLayer.dll
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\refint\Product.DataLayer.dll
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\Product.DataLayer.pdb
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\Product.DataLayer.genruntimeconfig.cache
+G:\Products1\Product.DataLayer\obj\Debug\net6.0\ref\Product.DataLayer.dll

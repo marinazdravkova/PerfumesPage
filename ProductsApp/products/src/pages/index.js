@@ -1,0 +1,9 @@
+export {default as Home} from './Home/Home.js';
+export {default as Card} from './Card/Card.js';
+export {default as PerfumePage} from './PerfumePage.js';
+export {default as Perfumes} from './Perfumes.js';
+export {default as NotFound} from './NotFound.js';
+//export {default as Register} from './Register/Register.js';
+export {default as SignIn} from './SignIn/SignIn.js';
+export {default as Orders} from './Orders/Orders.js';
+export {default as Brand} from './Brand/Brand.js';
