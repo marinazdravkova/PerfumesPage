@@ -1,0 +1,212 @@
+@import './../../assets/style/theming.scss';
+
+.error-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  padding: 15px 20px;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  animation: slideDown 0.3s ease-out;
+
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateX(-50%) translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
+
+.alert {
+  padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: white; 
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    .perfume-image-container {
+        // Adjust these styles as needed
+        flex: 0 0 50%; // This gives it a fixed proportion of the available space
+        max-width: 50%; // This makes sure the image container does not grow beyond 50% width
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img.perfume-image {
+          width: 100%; // This makes the image responsive within the container
+          max-width: 600px; // Adjust as needed for your design
+          height: auto; // Keep aspect ratio of the image
+          display: block; // Ensures the image does not inline with other elements
+        }
+      }
+  
+    .register-container {
+      flex: 1;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+  
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+  
+      .form-group {
+        margin-bottom: 20px;
+  
+  
+        input {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          margin-bottom: 10px;
+          box-sizing: border-box;
+  
+          &:focus {
+            outline: none;
+            border-color: $color-primary;
+          }
+        }
+  
+      }
+  
+      .register-button {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 4px;
+        background-color: $color-primary; // Use the button color from your design
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: darken($color-secondary, 10%);
+        }
+      }
+      
+    }
+
+    // Tablet and mobile responsive
+    @media (max-width: 968px) {
+      flex-direction: column;
+      padding: 20px;
+      gap: 20px;
+
+      .perfume-image-container {
+        flex: 1;
+        max-width: 100%;
+        width: 100%;
+
+        img.perfume-image {
+          max-width: 400px;
+        }
+      }
+
+      .register-container {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 768px) {
+      padding: 15px;
+      min-height: auto;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+      .perfume-image-container {
+        img.perfume-image {
+          max-width: 300px;
+        }
+      }
+
+      .register-container {
+        padding: 20px;
+
+        h1 {
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+
+        .form-group {
+          margin-bottom: 15px;
+
+          input {
+            padding: 12px;
+            font-size: 16px; // Prevents zoom on iOS
+          }
+        }
+
+        .register-button {
+          padding: 12px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    @media (max-width: 480px) {
+      padding: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .perfume-image-container {
+        img.perfume-image {
+          max-width: 250px;
+        }
+      }
+
+      .register-container {
+        padding: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        h1 {
+          font-size: 18px;
+        }
+      }
+    }
+    
+  }

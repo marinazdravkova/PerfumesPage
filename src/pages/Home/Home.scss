@@ -1,0 +1,118 @@
+@import './../../assets/style/theming';
+
+#home {
+    .container {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.3);
+            z-index: 1;
+        }
+    }
+
+    .content {
+        position: relative;
+        z-index: 2;
+        color: $color-primary;
+        padding: 20px;
+        box-sizing: border-box;
+        
+        h1, h2, p {
+            margin: 10px 0;
+        }
+    }
+
+    #perfume {
+        display: none;
+    }
+
+    // Tablet responsive
+    @media (max-width: 968px) {
+        .container {
+            min-height: 500px;
+        }
+
+        .content {
+            padding: 0 15px;
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+        .container {
+            min-height: 400px;
+            align-items: flex-end;
+            padding-bottom: 40px;
+        }
+
+        .content {
+            padding: 20px 15px;
+            z-index: 2;
+            background-color: transparent;
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        .container {
+            min-height: 350px;
+            padding-bottom: 30px;
+        }
+
+        .content {
+            padding: 15px 10px;
+            z-index: 2;
+            background-color: transparent;
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+}

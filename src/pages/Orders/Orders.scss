@@ -1,0 +1,146 @@
+.order-page {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+
+    .table-container {
+        max-width: 1200px;
+        margin: 0 auto; 
+        width: 100%;
+        overflow-x: auto;
+     
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        gap: 5px;
+    
+        button {
+          padding: 8px 16px;
+          margin: 0 5px;
+          border: 1px solid #ccc;
+          background-color: #f8f8f8;
+          cursor: pointer;
+          min-width: 40px;
+          font-size: 14px;
+    
+          &:hover {
+            background-color: #e8e8e8;
+          }
+    
+          &:focus {
+            outline: none;
+            background-color: #ddd;
+          }
+        }
+      }
+    .order-table {
+      width: 100%;
+      border-collapse: collapse;
+      display: block;
+      overflow-x: auto;
+
+      @media (min-width: 769px) {
+        display: table;
+      }
+  
+      thead, tbody, tr {
+        @media (max-width: 768px) {
+          display: block;
+        }
+      }
+
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        
+        @media (max-width: 768px) {
+          display: block;
+          width: 100%;
+          text-align: right;
+          padding: 10px;
+          border-bottom: 1px solid #eee;
+          position: relative;
+          padding-left: 50%;
+
+          &:before {
+            content: attr(data-label);
+            position: absolute;
+            left: 0;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+            text-align: left;
+            font-weight: bold;
+          }
+        }
+      }
+
+      th {
+        background-color: #f2f2f2;
+        
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+  
+      .order-details {
+        background-color: #f9f9f9;
+  
+        div {
+          padding: 8px;
+          border-bottom: 1px solid #eee;
+          
+          @media (max-width: 768px) {
+            padding: 10px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+}
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      padding: 15px;
+
+      .table-container {
+        .order-table {
+          font-size: 14px;
+        }
+
+        .pagination {
+          button {
+            padding: 6px 12px;
+            font-size: 12px;
+            margin: 0 2px;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 480px) {
+      padding: 10px;
+
+      .table-container {
+        .order-table {
+          font-size: 12px;
+
+          th, td {
+            padding: 8px;
+            padding-left: 45%;
+          }
+        }
+
+        .pagination {
+          button {
+            padding: 5px 10px;
+            font-size: 11px;
+            min-width: 35px;
+          }
+        }
+      }
+    }
+  }

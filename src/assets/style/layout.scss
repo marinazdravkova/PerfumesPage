@@ -1,0 +1,61 @@
+@import './theming.scss';
+a {
+    text-decoration: none;
+}
+.btn {
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: $color-primary;
+    color: white;
+    border-color: white;
+    min-width: 100px;
+    width: auto;
+    padding: 9px 10px;
+
+    &:hover {
+        background-color: white;
+        color: $color-primary;
+        border-color: $color-primary;
+    }
+}
+.btn-secondary {
+    background-color: white;
+    color: $color-primary;
+    
+
+    &:hover {
+        background-color: $color-primary;
+        color: white;
+        border-color: white;
+    }
+}
+
+// Mobile responsive buttons
+@media (max-width: 768px) {
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        min-width: 80px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .btn-primary {
+        min-width: 70px;
+        padding: 8px 12px;
+    }
+}
