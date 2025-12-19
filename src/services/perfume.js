@@ -1,4 +1,5 @@
-const baseUrl = 'https://localhost:7009';
+// Respect environment variable if provided (CRA uses REACT_APP_ prefix)
+const baseUrl = process.env.REACT_APP_API_URL || 'https://localhost:7009';
 
 const getPerfumeById = async (id) => {
     const res = await fetch(`${baseUrl}/perfume/${id}`);

@@ -81,4 +81,3 @@ If you want I can:
 - Add `.env` support and update `perfume.js` to use `process.env.REACT_APP_API_URL`, or
 - Add a small debug panel on the SignIn page to display full server responses while debugging.
 
-Let me know which you prefer and I will implement it.
